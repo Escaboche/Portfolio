@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}rg{% endblock %}
+
+{% block body %}
+<a href="{{path('create_skill')}}">Ajouter</a>
+
+<pre>
+    {{ dump(skills) }}
+</pre>
+{% endblock %}
